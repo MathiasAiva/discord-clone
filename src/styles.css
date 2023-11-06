@@ -2,3 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+@layer components {
+  .sidebar-icon-dot {
+    @apply bg-black before:block before:absolute before:-inset-0 before:rounded-3xl before:w-2 
+    before:h-2 before:my-auto before:left-[-28%] before:bg-white before:hover:h-4 
+    before:hover:rounded-xl before:hover:bg-white before:transition-all before:ease-linear before:duration-300;
+  }
+  .sidebar-icon {
+    @apply relative flex items-center justify-center text-green-600 mt-2 mb-2 mx-auto shadow-sm
+        h-12 w-12 rounded-3xl bg-gray-800 cursor-pointer hover:bg-green-600 hover:text-gray-50
+        hover:rounded-2xl transition-all ease-linear duration-300;
+  }
+}
