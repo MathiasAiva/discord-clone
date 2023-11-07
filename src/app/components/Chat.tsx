@@ -4,7 +4,7 @@ import { ChatBar } from './ChatBar';
 
 export const Chat = () => {
   return (
-    <div className="w-[75%]">
+    <div className="w-[77.5%]">
       <TopBar />
       <div className="h-[80%] text-xl overflow-scroll bg-gray-700 text-white">
         <div className='m-10'>
